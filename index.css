@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#find{
+    border-radius: 40px;
+    color: red;
+}
+body{
+    background-color: rgb(250, 204, 250);
+    display: grid;
+    place-self: center;
+}
+h1{
+   
+    color: blueviolet;
+    /* color: red; */
+    text-decoration: underline;
+    margin: 50px 20px 50px 20px ;
+}
+
+
+input{
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+
+button{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    /* border-radius: 5px; */
+}
+
+img{
+    width: 100px;
+}
+
+#cont{
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+    border: 0px solid rgb(250, 139, 139);
+}
+
+.btn{
+    font-size: 2rem;
+    width: 100px;
+    height: 100px;
+    color: white;
+    cursor: pointer;
+    margin: 0;
+    margin-left: 0;
+    background-color: rgb(218, 203, 255);
+}
+.btn:hover {
+    background-color: rgb(45, 46, 47);
+}
+.box{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#userConst{
+    margin-right: 80%;
+    font-size: large;
+}
+
+.Login{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+#enterName{
+    font-size: 30px;
+}
+
+#name{
+    box-sizing: border-box;
+}
+
+#bigConst{
+    margin-left: 30%;
+}
+#find{
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 10px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 40%;
+}
